@@ -1,0 +1,21 @@
+{
+  "name": "english-morse_translator.js",
+  "version": "1.0.0",
+  "description": "program that translates English to Morse code and displays it through LED's. Was built for Arduino with johnny-five.",
+  "main": "morse.js",
+  "keywords": [
+    "code",
+    "library"
+  ],
+  "author": {
+    "name": "Kristian Voshchepynets",
+    "url": "http://k2code.eu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Geovo/english-morse_translator.git"
+  },
+  "bugs": "https://github.com/Geovo/english-morse_translator.git",
+  "scripts": {
+  }
+}
