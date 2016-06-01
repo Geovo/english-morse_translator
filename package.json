@@ -5,11 +5,19 @@
   "main": "morse.js",
   "keywords": [
     "code",
-    "library"
+    "library",
+	"morse",
+	"morse encoder",
+	"Arduino",
+	"LED"
   ],
+  "license": "GPL-3.0",
   "author": {
     "name": "Kristian Voshchepynets",
     "url": "http://k2code.eu"
+  },
+  "dependencies": {
+	"johnny-five": ">=0.9.52"
   },
   "repository": {
     "type": "git",
@@ -17,5 +25,7 @@
   },
   "bugs": "https://github.com/Geovo/english-morse_translator.git",
   "scripts": {
+  	  "run": "node morse.js",
+	  "test": "mocha tests/*"
   }
 }
