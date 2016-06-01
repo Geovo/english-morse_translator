@@ -22,6 +22,7 @@ board.on("ready", function() {
 	console.log("ALLRIGHT! MEssage sent");
 	machine.blink(1000, 1);
 	this.repl.inject({
+		timeline: lib.timeline,
 		led: led,
 		machine: machine,
 		converter: converter
